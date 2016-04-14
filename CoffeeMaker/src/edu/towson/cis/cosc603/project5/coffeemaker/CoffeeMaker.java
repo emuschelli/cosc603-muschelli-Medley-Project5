@@ -44,7 +44,12 @@ public class CoffeeMaker {
         }
         
         //Check for an empty recipe, add recipe to first empty spot
-        if(canAddRecipe) {
+        canAddRecipe = canAddRecipe(r, canAddRecipe);
+        return canAddRecipe;
+    }
+
+	private boolean canAddRecipe(Recipe r, boolean canAddRecipe) {
+		if(canAddRecipe) {
         	int emptySpot = -1;
         	for(int i = 0; i < NUM_RECIPES; i++) {
         		if(!recipeFull[i]) {
@@ -52,16 +57,21 @@ public class CoffeeMaker {
         			canAddRecipe = true;
         		}
         	}
-        	if(emptySpot != -1) {
-        		recipeArray[emptySpot] = r;
-        		recipeFull[emptySpot] = true;
-        	}
-        	else {
-        		canAddRecipe = false;
-        	}
+        	canAddRecipe = emptySpot(r, canAddRecipe, emptySpot);
         }
-        return canAddRecipe;
-    }
+		return canAddRecipe;
+	}
+
+	private boolean emptySpot(Recipe r, boolean canAddRecipe, int emptySpot) {
+		if(emptySpot != -1) {
+			recipeArray[emptySpot] = r;
+			recipeFull[emptySpot] = true;
+		}
+		else {
+			canAddRecipe = false;
+		}
+		return canAddRecipe;
+	}
     
 	/**
 	 * Returns true if the recipe was deleted from the 
