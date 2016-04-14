@@ -28,5 +28,3 @@
 1460602583833	Extracting class from 'CoffeeMaker'
 1460602703995	Extract from method 'addRecipe'
 1460602915698	Extract interface 'AddRecipeInterface'
-1460604857387	Extract method 'canAddRecipe'
-1460604978973	Extract method 'emptySpot'
