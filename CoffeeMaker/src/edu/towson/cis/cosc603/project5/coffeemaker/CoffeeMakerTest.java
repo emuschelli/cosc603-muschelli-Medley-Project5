@@ -9,6 +9,7 @@ public class CoffeeMakerTest extends TestCase {
 	private CoffeeMaker cm;
 	private Inventory i;
 	private Recipe r1;
+	private Recipe r2;
 
 	public void setUp() {
 		cm = new CoffeeMaker();
@@ -21,10 +22,17 @@ public class CoffeeMakerTest extends TestCase {
 		r1.setAmtMilk(1);
 		r1.setAmtSugar(1);
 		r1.setAmtChocolate(0);
+		
+		
 	}
 
 	public void testAddRecipe1() {
 		assertTrue(cm.addRecipe(r1));
+	}
+	
+	public void testAddRecipe1_DuplicateName()
+	{
+		assertFalse(cm.addRecipe(r2));
 	}
 
 	public void testDeleteRecipe1() {

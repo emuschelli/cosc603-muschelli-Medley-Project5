@@ -1,0 +1,112 @@
+/**
+ * 
+ */
+package edu.towson.cis.cosc603.project5.coffeemaker;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * @author emusc_000
+ *
+ */
+public class InventoryTest {
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Inventory#Inventory()}.
+	 */
+	@Test
+	public void testInventory() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Inventory#getChocolate()}.
+	 */
+	@Test
+	public void testGetChocolate() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Inventory#setChocolate(int)}.
+	 */
+	@Test
+	public void testSetChocolate() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Inventory#getCoffee()}.
+	 */
+	@Test
+	public void testGetCoffee() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Inventory#setCoffee(int)}.
+	 */
+	@Test
+	public void testSetCoffee() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Inventory#getMilk()}.
+	 */
+	@Test
+	public void testGetMilk() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Inventory#setMilk(int)}.
+	 */
+	@Test
+	public void testSetMilk() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Inventory#getSugar()}.
+	 */
+	@Test
+	public void testGetSugar() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Inventory#setSugar(int)}.
+	 */
+	@Test
+	public void testSetSugar() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Inventory#enoughIngredients(edu.towson.cis.cosc603.project5.coffeemaker.Recipe)}.
+	 */
+	@Test
+	public void testEnoughIngredients() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Inventory#toString()}.
+	 */
+	@Test
+	public void testToString() {
+		fail("Not yet implemented");
+	}
+
+}

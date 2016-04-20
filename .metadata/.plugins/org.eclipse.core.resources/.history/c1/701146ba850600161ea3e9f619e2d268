@@ -1,0 +1,144 @@
+/**
+ * 
+ */
+package edu.towson.cis.cosc603.project5.coffeemaker;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * @author emusc_000
+ *
+ */
+public class RecipeTest {
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#getAmtChocolate()}.
+	 */
+	@Test
+	public void testGetAmtChocolate() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#setAmtChocolate(int)}.
+	 */
+	@Test
+	public void testSetAmtChocolate() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#getAmtCoffee()}.
+	 */
+	@Test
+	public void testGetAmtCoffee() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#setAmtCoffee(int)}.
+	 */
+	@Test
+	public void testSetAmtCoffee() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#getAmtMilk()}.
+	 */
+	@Test
+	public void testGetAmtMilk() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#setAmtMilk(int)}.
+	 */
+	@Test
+	public void testSetAmtMilk() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#getAmtSugar()}.
+	 */
+	@Test
+	public void testGetAmtSugar() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#setAmtSugar(int)}.
+	 */
+	@Test
+	public void testSetAmtSugar() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#getName()}.
+	 */
+	@Test
+	public void testGetName() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#setName(java.lang.String)}.
+	 */
+	@Test
+	public void testSetName() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#getPrice()}.
+	 */
+	@Test
+	public void testGetPrice() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#setPrice(int)}.
+	 */
+	@Test
+	public void testSetPrice() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#equals(edu.towson.cis.cosc603.project5.coffeemaker.Recipe)}.
+	 */
+	@Test
+	public void testEqualsRecipe() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link edu.towson.cis.cosc603.project5.coffeemaker.Recipe#toString()}.
+	 */
+	@Test
+	public void testToString() {
+		fail("Not yet implemented");
+	}
+
+}
